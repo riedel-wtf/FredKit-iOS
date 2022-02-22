@@ -227,7 +227,7 @@ public class FredKitChartTableViewCell: UITableViewCell {
     
     public override var intrinsicContentSize: CGSize {
         CGSize(
-            width: mainStackView.frame.size.width, height: mainStackView.frame.size.height + timeIntervalSelection.frame.size.height
+            width: mainStackView.frame.size.width, height: mainStackView.frame.size.height + timeIntervalSelection.frame.size.height + 12 + 12 + 12
         )
     }
     
