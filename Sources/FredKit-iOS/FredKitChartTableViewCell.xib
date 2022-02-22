@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20036.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20018.1"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
@@ -82,7 +82,7 @@
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z8-Q4-Psh">
-                                                            <rect key="frame" x="6" y="6" width="87.5" height="18"/>
+                                                            <rect key="frame" x="6" y="6" width="87" height="18"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="18" id="rVA-4R-dUV"/>
                                                             </constraints>
@@ -143,6 +143,7 @@
                 <outlet property="filterBackground" destination="5xP-yz-nMb" id="7Vl-Ru-eJY"/>
                 <outlet property="filterbutton" destination="5Z8-Q4-Psh" id="2z3-yF-WnB"/>
                 <outlet property="loadingIndicator" destination="ZKU-Hh-5Cc" id="ZQW-EO-GqH"/>
+                <outlet property="mainStackView" destination="0gD-f8-zpt" id="c4O-Lv-Ph9"/>
                 <outlet property="timeFrameLabel" destination="A78-hM-s3T" id="eoe-v7-Hqj"/>
                 <outlet property="timeIntervalLabel" destination="Sbm-kK-cfC" id="YG1-cN-2rU"/>
                 <outlet property="timeIntervalSelection" destination="bvS-GE-Nd1" id="e7s-EK-ufO"/>

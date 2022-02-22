@@ -223,9 +223,11 @@ public class FredKitChartTableViewCell: UITableViewCell {
     
     @IBOutlet weak var timeIntervalLabel: UILabel!
     
+    @IBOutlet weak var mainStackView: UIStackView!
+    
     public override var intrinsicContentSize: CGSize {
         CGSize(
-            width: self.chartView.frame.size.width, height: self.chartView.frame.size.height
+            width: mainStackView.frame.size.width, height: mainStackView.frame.size.height + timeIntervalSelection.frame.size.height
         )
     }
     
