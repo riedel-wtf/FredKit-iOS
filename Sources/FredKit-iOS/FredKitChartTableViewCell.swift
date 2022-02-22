@@ -223,6 +223,12 @@ public class FredKitChartTableViewCell: UITableViewCell {
     
     @IBOutlet weak var timeIntervalLabel: UILabel!
     
+    public override var intrinsicContentSize: CGSize {
+        CGSize(
+            width: self.chartView.frame.size.width, height: self.chartView.frame.size.height
+        )
+    }
+    
     var currentlyActiveFilterOption: String? {
         didSet {
             if let timeIntervalConfiguration = self.timeIntervalConfiguration {
