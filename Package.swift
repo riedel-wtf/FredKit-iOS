@@ -13,7 +13,7 @@ let package = Package(
             targets: ["FredKit-iOS"])
     ],
     dependencies: [
-        .package(url: "https://github.com/frogg/FredKitCharts.git", .upToNextMajor(from: "4.0.1")),
+        .package(url: "https://github.com/frogg/FredKitCharts.git", .upToNextMajor(from: "4.0.2")),
         .package(url: "https://github.com/frogg/FredKit.git", from: "0.0.32"),
         .package(url: "https://github.com/frogg/FredKitTabBarSplitView.git", from: "0.0.1")
     ],
@@ -25,6 +25,7 @@ let package = Package(
                 .product(
                     name: "Charts",
                     package: "FredKitCharts",
+                    moduleAliases: ["Charts": "GithubCharts"],
                     condition: .when(platforms: [.iOS, .macCatalyst])
                 ),
                 "FredKit"
