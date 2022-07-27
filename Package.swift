@@ -25,7 +25,6 @@ let package = Package(
                 .product(
                     name: "Charts",
                     package: "FredKitCharts",
-                    moduleAliases: ["Charts": "GithubCharts"],
                     condition: .when(platforms: [.iOS, .macCatalyst])
                 ),
                 "FredKit"
