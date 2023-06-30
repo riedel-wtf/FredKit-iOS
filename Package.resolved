@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FredKit",
+        "repositoryURL": "https://github.com/frogg/FredKit.git",
+        "state": {
+          "branch": null,
+          "revision": "e4741009fad55236dd3d53f3cc4c2a6e13f19cac",
+          "version": "0.1.28"
+        }
+      },
+      {
+        "package": "Charts",
+        "repositoryURL": "https://github.com/frogg/FredKitCharts.git",
+        "state": {
+          "branch": null,
+          "revision": "46893ac3405517463b73a5991bffdd466e5632ba",
+          "version": "4.0.3"
+        }
+      },
+      {
+        "package": "FredKitTabBarSplitView",
+        "repositoryURL": "https://github.com/frogg/FredKitTabBarSplitView.git",
+        "state": {
+          "branch": null,
+          "revision": "96637fbe7d6cdb2513f832bc9915d51e0b070c38",
+          "version": "0.0.7"
+        }
+      },
+      {
+        "package": "swift-algorithms",
+        "repositoryURL": "https://github.com/apple/swift-algorithms",
+        "state": {
+          "branch": null,
+          "revision": "b14b7f4c528c942f121c8b860b9410b2bf57825e",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "swift-numerics",
+        "repositoryURL": "https://github.com/apple/swift-numerics",
+        "state": {
+          "branch": null,
+          "revision": "0a5bc04095a675662cf24757cc0640aa2204253b",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

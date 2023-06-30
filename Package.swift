@@ -16,9 +16,9 @@ let package = Package(
             targets: ["FredKit-iOS"])
     ],
     dependencies: [
-        .package(url: "https://github.com/frogg/FredKitCharts.git", .upToNextMajor(from: "4.0.3")),
-        .package(url: "https://github.com/frogg/FredKit.git", from: "0.0.32"),
-        .package(url: "https://github.com/frogg/FredKitTabBarSplitView.git", from: "0.0.1")
+        .package(url: "https://github.com/riedel-wtf/FredKitCharts.git", .upToNextMajor(from: "4.0.3")),
+        .package(url: "https://github.com/riedel-wtf/FredKit.git", from: "0.0.32"),
+        .package(url: "https://github.com/riedel-wtf/FredKitTabBarSplitView.git", from: "0.0.1")
     ],
     
     targets: [
